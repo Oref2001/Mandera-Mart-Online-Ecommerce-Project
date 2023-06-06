@@ -1,64 +1,77 @@
 # Mandera-Mart-Online-Ecommerce-Project
 A project based Online Ecommerce Platform with payment Integration
+# Requirements
+asgiref==3.6.0
+boto3==1.26.145
+certifi==2023.5.7
+charset-normalizer==3.1.0
+dj-database-url==2.0.0
+Django==4.1.7
+django-extensions==3.2.1
+django-heroku==0.3.1
+django-storages==1.13.2
+gunicorn==20.1.0
+idna==3.4
+jmespath==1.0.1
+Pillow==9.4.0
+psycopg2==2.9.6
+python-decouple==3.8
+python-dotenv==1.0.0
+requests==2.31.0
+s3transfer==0.6.1
+six==1.16.0
+sqlparse==0.4.3
+typing_extensions==4.6.3
+tzdata==2022.7
+urllib3==1.26.16
+whitenoise==6.4.0
 
+## Runtime
+python-3.11.3
 
-![Screenshot (449)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/4c1e556d-98a0-4b09-8234-1d3de7ec7f96)
-![Screenshot (452)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/4776ee4e-708c-4a7e-9685-c39c9d82d2f9)
-![Screenshot (453)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/766f7f6c-281e-4beb-a2dd-a2a8fa9d8b5e)
-![Screenshot (454)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/632c8f4b-c903-474b-b1f5-b5c7c2dfbc5c)
-![Screenshot (456)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/5b57a9ba-1c90-4abf-bd92-08f81e78da1f)
-![Screenshot (457)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/7d77995a-7bb9-4d86-bb7c-0337bfd0cc34)
-![Screenshot (458)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/a78ae121-57c1-4ba1-bff0-26e502146eab)
-![Screenshot (459)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/1ed12eb9-1f3f-409f-b997-ef8e49cfad6a)
-![Screenshot (460)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8443955b-a4a5-40ac-84f8-8b1f5551e541)
-![Screenshot (461)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/0f58e7d1-fe98-4193-88e5-6073ff2cceee)
-![Screenshot (462)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/4787a1ef-db6a-4bd6-b97c-87049f3f67a2)
-![Screenshot (463)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8253393b-cfdf-4a94-a5a1-7336b4fa337d)
-![Screenshot (401)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/cd2a7a69-e35b-4a63-8640-a6eba40d8b8e)
-![Screenshot (402)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/0fec05e7-7754-409f-acfd-a1f4b0d4888d)
-![Screenshot (403)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/63f8afd7-0985-4b49-9352-d9fde36bf942)
-![Screenshot (404)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/d17d0b4f-0533-490e-836a-c5d13f97c296)
-![Screenshot (405)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/ef5eedc4-d7a1-4827-9601-74f9804a777f)
-![Screenshot (406)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/eaa0ef58-bd59-4346-9ac6-7b7373bb531e)
-![Screenshot (407)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/d4734ed4-cac3-433d-b4ac-f62d25a423ba)
-![Screenshot (408)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/562ef726-56dc-4869-938c-42010bfb6a82)
-![Screenshot (409)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/932835a0-7d85-4222-82a7-dfae025a3d40)
-![Screenshot (410)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/87d2bee3-8bea-4b7a-913d-c9d43dd0a1e9)
-![Screenshot (411)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/630d7711-71a1-4f74-9bee-97928f20e20e)
-![Screenshot (412)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/a4ea5630-b11f-4b2f-ac62-5258f72e9713)
-![Screenshot (413)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/4c720f07-538b-4d1a-af68-fbca3a83d143)
-![Screenshot (414)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/e5f25466-6442-4b00-9110-f465e5f55029)
-![Screenshot (415)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/f0ea2b4a-8ff7-4cbf-bc33-079cc2b1b1cd)
-![Screenshot (416)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/1f015785-2355-4736-b6df-8e77ad5ccb31)
-![Screenshot (417)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/ba37ef8a-01a5-482d-be6e-c60c160d67a0)
-![Screenshot (418)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/7325ec51-8be3-4e6a-8e0e-0dc425f8119f)
-![Screenshot (419)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/d0dc79b1-5a51-436d-926e-b8034ce49a97)
-![Screenshot (420)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8cd8311d-a691-4559-b632-5061a9dde27c)
-![Screenshot (421)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/9c39702a-1890-4d18-b64e-618f287f846f)
-![Screenshot (422)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/7d7eda1e-1399-4df7-9be5-a6f9281962e8)
-![Screenshot (423)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/4db83c90-97b5-462e-847b-62b2586e8cb1)
-![Screenshot (424)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/588d9e16-79dc-4f0d-8a2d-bbe4229eb16a)
-![Screenshot (425)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/9acfb98e-1e28-4c70-9812-b572079b980b)
-![Screenshot (426)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/aeaf8e7d-ca52-412b-8c44-a895ebbcb723)
-![Screenshot (427)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/f6a4684d-e184-4ae4-bbfd-af5a43c048a1)
-![Screenshot (428)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/6a09fdf4-2976-4075-b244-e449b37593db)
-![Screenshot (429)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/33726781-854b-4dc1-b32e-89ba7089462c)
-![Screenshot (430)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8c09f041-7a59-42ee-887d-01bdf8e5ba7a)
-![Screenshot (431)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/da05124e-636a-4a03-bcc6-612db74c0461)
-![Screenshot (432)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/b8957b56-d1d3-4900-98db-112e069b210a)
-![Screenshot (433)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/49586d8a-378f-4508-bffe-24aa2ad535bf)
-![Screenshot (434)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/39f2f826-cf5a-4bf2-b6f1-9b9882a6fada)
-![Screenshot (435)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/89c9e3d9-c9cd-4520-b9ec-1d85351cdea4)
-![Screenshot (436)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/174a381f-29fb-4a57-bc54-e69ea40c3ee4)
-![Screenshot (437)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/f4cd3961-d890-4041-afdf-fbaf97f7dbf8)
-![Screenshot (438)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/7c42d403-01ca-4f46-946c-be0f36b4e7b0)
-![Screenshot (439)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/b0d270d6-d9ce-4ded-9cc8-fe9ad895cb18)
-![Screenshot (440)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/b9603e99-3a7c-4c1f-8864-4774ecd99985)
-![Screenshot (441)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/25cbe635-d0f7-43e4-b13b-9450a707eb25)
-![Screenshot (442)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8c9bec99-4a1d-4977-bde0-69065b2a044a)
-![Screenshot (443)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/55ca982a-4737-430a-b98c-d62ac9f0e00d)
-![Screenshot (444)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/34b64948-eab2-4787-9867-1d1debb1128e)
-![Screenshot (445)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/07b2876f-4920-4a7b-a618-f16fd5770a42)
-![Screenshot (446)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/47a24bf8-3002-4ab0-a2ba-61783cf1c12f)
-![Screenshot (447)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/c7601009-3c84-40ce-80e2-7b5922679bd1)
-![Screenshot (448)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/75ddd682-f48f-45b1-99e5-8046cdab39c6)
+##shots
+![Screenshot (493)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8d2b0fe8-9723-4c6b-b1aa-7d00ff5523a9)
+![Screenshot (494)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/9503a60e-c039-42c3-b38c-f481fa5c83b8)
+![Screenshot (495)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/f49a53c7-4b20-4e4c-8897-774ca9fe33e2)
+![Screenshot (496)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/efb5f2e7-3d2b-4ac4-9419-72087bf4e922)
+![Screenshot (497)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/3cac0ecc-f091-44c4-be93-4a4d3aa7aa79)
+![Screenshot (498)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/51d6e1fd-43eb-4212-9128-54f13944e856)
+![Screenshot (499)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/27925cb4-3978-4792-9640-ea5fa58aecec)
+![Screenshot (500)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/d5f5efa7-caa2-4138-acc2-97354c67e5a4)
+![Screenshot (501)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/67de8752-20d4-49a1-8c71-466db6a2e7d7)
+![Screenshot (502)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/06081646-20c3-4197-9401-1f16c527634a)
+![Screenshot (503)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/fc88879d-8092-402d-a67b-b30c8a565630)
+![Screenshot (504)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/47f1babc-186f-4e3f-9905-108f360f3c62)
+![Screenshot (505)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/a4a14b55-f89f-470f-bc3a-9b30dc127d93)
+![Screenshot (506)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/8074042b-94cb-4bf9-b21e-9e51f88c163d)
+![Screenshot (507)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/3223a5a1-dd4f-42d6-bbf3-9e586f528fbd)
+![Screenshot (508)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/1f88c90c-4983-4814-b685-1255dce0dbcb)
+![Screenshot (464)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/e14a5d63-8684-4c20-9bb6-89871384237a)
+![Screenshot (465)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/d8d55bcc-a06f-4475-8ad8-395a06f4eede)
+![Screenshot (466)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/80e7b004-3310-431b-a9be-497ade49eed5)
+![Screenshot (467)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/663c33aa-679c-44ab-be54-3456e8dc7f22)
+![Screenshot (468)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/16b5a4ee-15c4-455f-aa5d-7ec9ccc0602f)
+![Screenshot (469)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/514f85ee-27fc-4e3b-8fc1-ea89ba2e14b6)
+![Screenshot (470)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/59c8a323-3b31-4f40-bb81-8cd30768c658)
+![Screenshot (471)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/07ac43c1-906a-4667-a6d6-6ee7e6686925)
+![Screenshot (472)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/35619381-9c96-48d8-b9a5-67bfec2cc58e)
+![Screenshot (473)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/bb0c1aae-9deb-4db5-801a-b82c6f4a8d8a)
+![Screenshot (474)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/b00a4dd8-02a0-45b7-812d-72f2c4e2ec4f)
+![Screenshot (475)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/50af7789-a09f-4a07-8456-ec1b64bd525c)
+![Screenshot (476)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/1e8a8221-aa18-4afd-bad2-898fa0a86596)
+![Screenshot (477)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/7d4490af-aaa0-4237-a49c-f53bdcf00b55)
+![Screenshot (478)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/83ca4ec5-cb34-4f2f-8fbe-04f38593b276)
+![Screenshot (479)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/50b9b047-3cd7-4bef-8a47-a49526f70dec)
+![Screenshot (480)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/11729de4-e38a-4ad5-af99-4034af8352b2)
+![Screenshot (481)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/b27532f1-a821-4f52-9873-13fc6a5737c1)
+![Screenshot (482)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/f9871efb-25a4-499b-93ea-d4226b69fb12)
+![Screenshot (483)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/3585e6bc-af82-484a-91ee-1157a4b72f5d)
+![Screenshot (484)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/1470ead3-1f69-4abe-9e1f-c0a531f694e5)
+![Screenshot (485)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/a4cb65e7-2537-400d-a7c8-d19a0d45fe2a)
+![Screenshot (486)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/467ba7ef-f418-4d59-b3df-6d40303b137c)
+![Screenshot (487)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/a06d84ae-ee39-4de6-9eb7-078473609ecc)
+![Screenshot (488)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/116e028b-a5c3-4a01-9dda-e71c0c0502ef)
+![Screenshot (489)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/7b9e5af8-0653-4236-973c-62665e4b2b27)
+![Screenshot (490)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/588d8b02-b7bf-4167-ad14-0fb499f312c6)
+![Screenshot (491)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/2781dca4-a5b7-46a3-8aad-eb076b365e74)
+![Screenshot (492)](https://github.com/Oref2001/Mandera-Mart-Online-Ecommerce-Project/assets/131554994/81816b26-6171-4656-a087-d03b024e9ff5)
